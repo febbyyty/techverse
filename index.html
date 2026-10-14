@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="TECHVERSE adalah website edukasi hardware dan software komputer untuk pelajar TKJ." name="description"/>
+  <title>
+   TECHVERSE | Hardware &amp; Software Explorer
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <div class="progress-bar" id="progressBar">
+  </div>
+  <header class="header">
+   <a class="logo" href="#home">
+    <span class="logo-icon">
+     T
+    </span>
+          TECH
+    <span>
+     VERSE
+    </span>
+   </a>
+   <button aria-expanded="false" aria-label="Buka navigasi" class="menu-toggle" id="menuToggle">
+    ☰
+   </button>
+   <nav class="nav" id="nav">
+    <a href="#home">
+     Home
+    </a>
+    <a href="#hardware">
+     Hardware
+    </a>
+    <a href="#software">
+     Software
+    </a>
+    <a href="#comparison">
+     Perbandingan
+    </a>
+    <a href="#quiz">
+     Quiz
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="hero section" id="home">
+    <div class="hero-content reveal">
+     <span class="eyebrow">
+      <span class="status-dot">
+      </span>
+      COMPUTER SCIENCE &bull; TKJ
+     </span>
+     <h1>
+      EXPLORE THE
+      <br/>
+      WORLD OF
+      <span>
+       TECH.
+      </span>
+     </h1>
+     <p class="hero-text">
+                Kenali komponen fisik dan perangkat lunak yang membuat
+
+          komputer bekerja. Mulai dari dasar hingga konsep teknologi
+
+          yang lebih mendalam.
+
+     </p>
+     <div class="hero-actions">
+      <a class="btn btn-primary" href="#hardware">
+       Mulai Belajar &nearrow;
+      </a>
+      <a class="btn btn-outline" href="#quiz">
+       Uji Pengetahuan
+      </a>
+     </div>
+     <div class="hero-stats">
+      <div>
+       <strong>
+        02
+       </strong>
+       <span>
+        Topik Utama
+       </span>
+      </div>
+      <div>
+       <strong>
+        10
+       </strong>
+       <span>
+        Soal Quiz
+       </span>
+      </div>
+      <div>
+       <strong>
+        100%
+       </strong>
+       <span>
+        Semangat Belajar
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="hero-visual reveal">
+     <div class="orbit orbit-one">
+     </div>
+     <div class="orbit orbit-two">
+     </div>
+     <div class="core-card">
+      <img alt="Papan sirkuit elektronik dan komponen hardware" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"/>
+      <div class="core-overlay">
+       <span>
+        TECH SYSTEM / 001
+       </span>
+       <h3>
+        Hardware &times; Software
+       </h3>
+       <p>
+        Two parts. One system.
+       </p>
+      </div>
+     </div>
+     <div class="floating-chip chip-top">
+      CPU // CORE
+     </div>
+     <div class="floating-chip chip-bottom">
+      SYSTEM ONLINE ●
+     </div>
+    </div>
+   </section>
+   <section class="section intro reveal">
+    <div class="section-heading">
+     <span class="eyebrow">
+      01 / FUNDAMENTALS
+     </span>
+     <h2>
+      Memahami Dasar
+      <span>
+       Komputer
+      </span>
+     </h2>
+     <p>
+      Komputer bukan hanya layar dan keyboard. Ada banyak komponen yang bekerja sama untuk memproses informasi.
+     </p>
+    </div>
+    <div class="concept-grid">
+     <article class="concept-card">
+      <span class="concept-number">
+       01
+      </span>
+      <div class="concept-icon">
+       ▣
+      </div>
+      <h3>
+       Hardware
+      </h3>
+      <p>
+       Bagian fisik komputer yang dapat dilihat dan disentuh, seperti prosesor, RAM, monitor, dan keyboard.
+      </p>
+      <a href="#hardware">
+       Pelajari hardware &nearrow;
+      </a>
+     </article>
+     <article class="concept-card">
+      <span class="concept-number">
+       02
+      </span>
+      <div class="concept-icon">
+       ⌘
+      </div>
+      <h3>
+       Software
+      </h3>
+      <p>
+       Program dan instruksi yang mengatur komputer serta membantu pengguna menyelesaikan berbagai tugas.
+      </p>
+      <a href="#software">
+       Pelajari software &nearrow;
+      </a>
+     </article>
+     <article class="concept-card">
+      <span class="concept-number">
+       03
+      </span>
+      <div class="concept-icon">
+       ⌬
+      </div>
+      <h3>
+       Brainware
+      </h3>
+      <p>
+       Manusia yang menggunakan, mengelola, memelihara, atau mengembangkan sistem komputer.
+      </p>
+      <a href="#workflow">
+       Lihat cara kerja &nearrow;
+      </a>
+     </article>
+    </div>
+   </section>
+   <section class="section content-section" id="hardware">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      02 / PHYSICAL COMPONENTS
+     </span>
+     <h2>
+      Inside the
+      <span>
+       Hardware
+      </span>
+     </h2>
+     <p>
+      Hardware adalah seluruh komponen fisik pada sistem komputer. Komponen ini menerima input, memproses data, menyimpan data, dan menghasilkan output.
+     </p>
+    </div>
+    <div class="feature-layout reveal">
+     <div class="feature-image">
+      <img alt="Komponen komputer dan perangkat elektronik" src="https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+      <span class="image-label">
+       HARDWARE / PHYSICAL LAYER
+      </span>
+     </div>
+     <div class="feature-copy">
+      <span class="tag">
+       DEFINITION
+      </span>
+      <h3>
+       Apa itu Hardware?
+      </h3>
+      <p>
+       Hardware adalah perangkat keras berupa komponen elektronik, mekanik, atau elektromekanik yang membentuk sebuah sistem komputer.
+      </p>
+      <p>
+       Hardware membutuhkan instruksi dari software agar dapat menjalankan tugas tertentu. Namun, beberapa perangkat juga memiliki firmware, yaitu perangkat lunak tingkat rendah yang membantu mengendalikan perangkat keras.
+      </p>
+      <div class="fact-box">
+       <strong>
+        Contoh sederhana
+       </strong>
+       <p>
+        Keyboard mengirimkan input, CPU memproses instruksi, RAM menyimpan data sementara, dan monitor menampilkan hasil.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subheading reveal">
+     <span class="eyebrow">
+      COMPONENT DATABASE
+     </span>
+     <h3>
+      Kenali Perangkat Keras
+     </h3>
+     <p>
+      Pilih kategori untuk mempelajari fungsi dan contoh komponennya.
+     </p>
+    </div>
+    <div class="filter-bar reveal" id="hardwareFilters">
+     <button class="filter-btn active" data-filter="all">
+      Semua
+     </button>
+     <button class="filter-btn" data-filter="internal">
+      Internal
+     </button>
+     <button class="filter-btn" data-filter="input">
+      Input
+     </button>
+     <button class="filter-btn" data-filter="output">
+      Output
+     </button>
+     <button class="filter-btn" data-filter="storage">
+      Penyimpanan
+     </button>
+     <button class="filter-btn" data-filter="network">
+      Jaringan
+     </button>
+    </div>
+    <div class="device-grid" id="hardwareGrid">
+     <article class="device-card reveal" data-category="internal">
+      <div class="device-visual">
+       <img alt="Prosesor komputer" loading="lazy" src="https://images.unsplash.com/photo-1555617981-dac3880eac6e?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        01
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        PROCESSING
+       </span>
+       <h3>
+        CPU / Processor
+       </h3>
+       <p>
+        Menjalankan instruksi dan melakukan operasi aritmetika serta logika. CPU sering disebut pusat pemrosesan komputer.
+       </p>
+       <small>
+        Contoh: Intel Core, AMD Ryzen
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="internal">
+      <div class="device-visual">
+       <img alt="Modul memori komputer" loading="lazy" src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        02
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        MEMORY
+       </span>
+       <h3>
+        RAM
+       </h3>
+       <p>
+        Menyimpan sementara data dan instruksi yang sedang digunakan. Isinya umumnya hilang ketika daya mati.
+       </p>
+       <small>
+        Contoh: DDR4, DDR5
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="internal">
+      <div class="device-visual">
+       <img alt="Papan sirkuit motherboard" loading="lazy" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        03
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        MAIN BOARD
+       </span>
+       <h3>
+        Motherboard
+       </h3>
+       <p>
+        Papan utama yang menghubungkan CPU, RAM, penyimpanan, dan berbagai komponen lainnya.
+       </p>
+       <small>
+        Contoh: motherboard ATX, Micro-ATX
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="internal">
+      <div class="device-visual">
+       <img alt="Kartu grafis komputer" loading="lazy" src="https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        04
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        GRAPHICS
+       </span>
+       <h3>
+        GPU / VGA
+       </h3>
+       <p>
+        Memproses grafis dan menghasilkan data gambar untuk ditampilkan. GPU juga dapat membantu komputasi tertentu.
+       </p>
+       <small>
+        Contoh: GPU terintegrasi dan diskret
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="storage">
+      <div class="device-visual">
+       <img alt="Solid state drive untuk menyimpan data" loading="lazy" src="https://i.blogs.es/e0090f/hdd-ssd/450_1000.jpg"/>
+       <span>
+        05
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        STORAGE
+       </span>
+       <h3>
+        SSD / HDD
+       </h3>
+       <p>
+        Menyimpan sistem operasi, aplikasi, dan file secara jangka panjang. SSD memakai memori flash, sedangkan HDD menggunakan piringan magnetik.
+       </p>
+       <small>
+        Contoh: SSD SATA, SSD NVMe, HDD
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="internal">
+      <div class="device-visual">
+       <img alt="Peralatan dan komponen elektronik" loading="lazy" src="https://image.made-in-china.com/2f0j00cqwVGiWnZTYB/Computer-Parts-ATX-Switching-Power-Supply-Active-Pfc-PSU-Computer-Power-Supplies-PC-Power-Real-500W-PC-ATX-Power-Supply.jpg"/>
+       <span>
+        06
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        POWER
+       </span>
+       <h3>
+        Power Supply (PSU)
+       </h3>
+       <p>
+        Mengubah listrik AC dari sumber listrik menjadi tegangan DC yang dibutuhkan komponen komputer.
+       </p>
+       <small>
+        Perhatikan daya dan konektor yang sesuai.
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="input">
+      <div class="device-visual">
+       <img alt="Keyboard komputer" loading="lazy" src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        07
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        INPUT
+       </span>
+       <h3>
+        Keyboard
+       </h3>
+       <p>
+        Memasukkan huruf, angka, simbol, dan perintah melalui tombol-tombolnya.
+       </p>
+       <small>
+        Jenis: membran dan mekanis
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="input">
+      <div class="device-visual">
+       <img alt="Mouse komputer" loading="lazy" src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        08
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        INPUT
+       </span>
+       <h3>
+        Mouse
+       </h3>
+       <p>
+        Mengendalikan penunjuk di layar untuk memilih, mengeklik, menyeret, dan menjalankan perintah.
+       </p>
+       <small>
+        Jenis: kabel dan nirkabel
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="output">
+      <div class="device-visual">
+       <img alt="Monitor komputer" loading="lazy" src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        09
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        OUTPUT
+       </span>
+       <h3>
+        Monitor
+       </h3>
+       <p>
+        Menampilkan informasi visual berupa teks, gambar, antarmuka, dan video.
+       </p>
+       <small>
+        Contoh: LCD, LED, OLED
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="output">
+      <div class="device-visual">
+       <img alt="Printer untuk mencetak dokumen" loading="lazy" src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&amp;fit=crop&amp;w=700&amp;q=80"/>
+       <span>
+        10
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        OUTPUT
+       </span>
+       <h3>
+        Printer
+       </h3>
+       <p>
+        Menghasilkan salinan fisik dokumen atau gambar pada kertas maupun media tertentu.
+       </p>
+       <small>
+        Contoh: inkjet dan laser
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="network">
+      <div class="device-visual">
+       <img alt="Perangkat jaringan komputer" loading="lazy" src="https://b.scdn.gr/images/sku_images/083261/83261767/20231004164455_70ff3b89.jpeg"/>
+       <span>
+        11
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        NETWORK
+       </span>
+       <h3>
+        NIC / Network Card
+       </h3>
+       <p>
+        Menyediakan antarmuka agar komputer dapat terhubung ke jaringan melalui Ethernet atau Wi-Fi.
+       </p>
+       <small>
+        Contoh: Ethernet adapter, Wi-Fi adapter
+       </small>
+      </div>
+     </article>
+     <article class="device-card reveal" data-category="output">
+      <div class="device-visual">
+       <img alt="Perangkat audio komputer" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/I/91CbEb08uYL.jpg"/>
+       <span>
+        12
+       </span>
+      </div>
+      <div class="device-info">
+       <span class="tag">
+        AUDIO OUTPUT
+       </span>
+       <h3>
+        Speaker
+       </h3>
+       <p>
+        Mengubah sinyal audio menjadi suara yang dapat didengar oleh pengguna.
+       </p>
+       <small>
+        Contoh: speaker aktif dan speaker USB
+       </small>
+      </div>
+     </article>
+    </div>
+    <p class="note reveal">
+     Catatan: gambar berasal dari layanan eksternal dan memerlukan koneksi internet. Nama model pada contoh hanya ilustrasi, bukan rekomendasi produk tertentu.
+    </p>
+    <div class="knowledge-panel reveal">
+     <div>
+      <span class="eyebrow">
+       TECH KNOWLEDGE
+      </span>
+      <h3>
+       Input &rarr; Process &rarr; Output
+      </h3>
+      <p>
+       Model sederhana untuk memahami aliran data dalam komputer.
+      </p>
+     </div>
+     <div class="ipo-flow">
+      <div>
+       <span>
+        01
+       </span>
+       <strong>
+        INPUT
+       </strong>
+       <small>
+        Keyboard
+       </small>
+      </div>
+      <b>
+       &rarr;
+      </b>
+      <div>
+       <span>
+        02
+       </span>
+       <strong>
+        PROCESS
+       </strong>
+       <small>
+        CPU + RAM
+       </small>
+      </div>
+      <b>
+       &rarr;
+      </b>
+      <div>
+       <span>
+        03
+       </span>
+       <strong>
+        OUTPUT
+       </strong>
+       <small>
+        Monitor
+       </small>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section content-section software-section" id="software">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      03 / DIGITAL INSTRUCTIONS
+     </span>
+     <h2>
+      Discover
+      <span>
+       Software
+      </span>
+     </h2>
+     <p>
+      Software membuat komputer mampu menjalankan instruksi, mengelola perangkat keras, dan membantu pengguna bekerja.
+     </p>
+    </div>
+    <div class="feature-layout reverse reveal">
+     <div class="feature-image">
+      <img alt="Kode program pada layar komputer" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+      <span class="image-label">
+       SOFTWARE / LOGICAL LAYER
+      </span>
+     </div>
+     <div class="feature-copy">
+      <span class="tag">
+       DEFINITION
+      </span>
+      <h3>
+       Apa itu Software?
+      </h3>
+      <p>
+       Software adalah kumpulan program, prosedur, dan instruksi yang digunakan untuk mengatur operasi komputer atau menyelesaikan tugas tertentu.
+      </p>
+      <p>
+       Software tidak berbentuk fisik seperti keyboard atau RAM. Software disimpan sebagai data digital dan dijalankan oleh sistem komputer.
+      </p>
+      <div class="fact-box">
+       <strong>
+        Contoh sederhana
+       </strong>
+       <p>
+        Windows mengelola sistem komputer, browser membuka situs web, dan Visual Studio Code membantu menulis kode program.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="subheading reveal">
+     <span class="eyebrow">
+      SOFTWARE CATEGORIES
+     </span>
+     <h3>
+      Jenis-Jenis Software
+     </h3>
+    </div>
+    <div class="software-grid">
+     <article class="software-card reveal">
+      <div class="software-icon">
+       OS
+      </div>
+      <span class="tag">
+       01 / SYSTEM
+      </span>
+      <h3>
+       Sistem Operasi
+      </h3>
+      <p>
+       Mengelola sumber daya hardware, memori, proses, file, dan interaksi pengguna.
+      </p>
+      <div class="example-list">
+       <span>
+        Windows
+       </span>
+       <span>
+        Linux
+       </span>
+       <span>
+        macOS
+       </span>
+       <span>
+        Android
+       </span>
+      </div>
+     </article>
+     <article class="software-card reveal">
+      <div class="software-icon">
+       APP
+      </div>
+      <span class="tag">
+       02 / APPLICATION
+      </span>
+      <h3>
+       Software Aplikasi
+      </h3>
+      <p>
+       Membantu pengguna melakukan pekerjaan tertentu, seperti mengetik, menggambar, atau menjelajah internet.
+      </p>
+      <div class="example-list">
+       <span>
+        Microsoft Word
+       </span>
+       <span>
+        Chrome
+       </span>
+       <span>
+        GIMP
+       </span>
+       <span>
+        VLC
+       </span>
+      </div>
+     </article>
+     <article class="software-card reveal">
+      <div class="software-icon">
+       DRV
+      </div>
+      <span class="tag">
+       03 / DRIVER
+      </span>
+      <h3>
+       Device Driver
+      </h3>
+      <p>
+       Memungkinkan sistem operasi berkomunikasi dengan perangkat keras melalui antarmuka yang sesuai.
+      </p>
+      <div class="example-list">
+       <span>
+        Audio driver
+       </span>
+       <span>
+        GPU driver
+       </span>
+       <span>
+        Printer driver
+       </span>
+      </div>
+     </article>
+     <article class="software-card reveal">
+      <div class="software-icon">
+       UTL
+      </div>
+      <span class="tag">
+       04 / UTILITY
+      </span>
+      <h3>
+       Utility Software
+      </h3>
+      <p>
+       Membantu pemeliharaan, keamanan, pemeriksaan, atau pengelolaan sistem komputer.
+      </p>
+      <div class="example-list">
+       <span>
+        Backup tools
+       </span>
+       <span>
+        Antivirus
+       </span>
+       <span>
+        Disk tools
+       </span>
+      </div>
+     </article>
+     <article class="software-card reveal">
+      <div class="software-icon">
+       DEV
+      </div>
+      <span class="tag">
+       05 / DEVELOPMENT
+      </span>
+      <h3>
+       Software Pengembangan
+      </h3>
+      <p>
+       Digunakan untuk menulis, membangun, menguji, dan memperbaiki program.
+      </p>
+      <div class="example-list">
+       <span>
+        VS Code
+       </span>
+       <span>
+        Compiler
+       </span>
+       <span>
+        Debugger
+       </span>
+      </div>
+     </article>
+     <article class="software-card reveal">
+      <div class="software-icon">
+       FW
+      </div>
+      <span class="tag">
+       06 / FIRMWARE
+      </span>
+      <h3>
+       Firmware
+      </h3>
+      <p>
+       Software tingkat rendah yang tersimpan pada perangkat untuk mengendalikan fungsi dasarnya.
+      </p>
+      <div class="example-list">
+       <span>
+        UEFI
+       </span>
+       <span>
+        Router firmware
+       </span>
+       <span>
+        Embedded system
+       </span>
+      </div>
+     </article>
+    </div>
+    <div class="terminal reveal">
+     <div class="terminal-top">
+      <div class="terminal-dots">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+      </div>
+      <span>
+       techverse@learning:\~
+      </span>
+     </div>
+     <div class="terminal-body">
+      <p>
+       <span class="terminal-green">
+        student@techverse
+       </span>
+       :
+       <span class="terminal-blue">
+        \~
+       </span>
+       $ identify-software
+      </p>
+      <p>
+       <span class="terminal-green">
+        &checkmark;
+       </span>
+       Operating System &mdash; manages computer resources
+      </p>
+      <p>
+       <span class="terminal-green">
+        &checkmark;
+       </span>
+       Application &mdash; helps users complete tasks
+      </p>
+      <p>
+       <span class="terminal-green">
+        &checkmark;
+       </span>
+       Driver &mdash; connects OS with hardware devices
+      </p>
+      <p>
+       <span class="terminal-green">
+        &checkmark;
+       </span>
+       Utility &mdash; maintains and protects the system
+      </p>
+      <p class="terminal-ready">
+       SYSTEM STATUS: READY TO LEARN_
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section content-section" id="comparison">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      04 / SIDE BY SIDE
+     </span>
+     <h2>
+      Hardware
+      <span>
+       vs
+      </span>
+      Software
+     </h2>
+     <p>
+      Keduanya berbeda, tetapi saling membutuhkan untuk menjalankan sistem komputer.
+     </p>
+    </div>
+    <div class="table-wrap reveal">
+     <table>
+      <thead>
+       <tr>
+        <th>
+         Aspek
+        </th>
+        <th>
+         Hardware
+        </th>
+        <th>
+         Software
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td>
+         Wujud
+        </td>
+        <td>
+         Komponen fisik
+        </td>
+        <td>
+         Program dan instruksi digital
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Dapat disentuh?
+        </td>
+        <td>
+         Ya, sebagai perangkat fisik
+        </td>
+        <td>
+         Tidak secara fisik
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Fungsi
+        </td>
+        <td>
+         Menerima, memproses, menyimpan, atau menghasilkan data
+        </td>
+        <td>
+         Memberikan instruksi dan layanan kepada sistem atau pengguna
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Contoh
+        </td>
+        <td>
+         CPU, RAM, monitor, keyboard
+        </td>
+        <td>
+         Windows, Linux, browser, aplikasi
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Kerusakan
+        </td>
+        <td>
+         Bisa aus atau mengalami kerusakan fisik
+        </td>
+        <td>
+         Bisa mengalami bug, korupsi data, atau kesalahan konfigurasi
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Perawatan
+        </td>
+        <td>
+         Pembersihan, pemeriksaan koneksi, dan penggantian komponen
+        </td>
+        <td>
+         Pembaruan, pencadangan, pemeriksaan keamanan, dan perbaikan program
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="example-banner reveal">
+     <div class="example-number">
+      01
+     </div>
+     <div>
+      <span class="eyebrow">
+       REAL-LIFE EXAMPLE
+      </span>
+      <h3>
+       Saat kamu mengetik di laptop
+      </h3>
+      <p>
+       Keyboard mengirimkan input fisik. Sistem operasi dan aplikasi memproses input tersebut menggunakan CPU serta memori. Lalu monitor menampilkan huruf yang kamu ketik.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section content-section" id="workflow">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      05 / SYSTEM WORKFLOW
+     </span>
+     <h2>
+      Bagaimana Komputer
+      <span>
+       Bekerja?
+      </span>
+     </h2>
+     <p>
+      Perhatikan bagaimana pengguna, software, dan hardware bekerja sama.
+     </p>
+    </div>
+    <div class="workflow">
+     <article class="workflow-step reveal">
+      <span>
+       01
+      </span>
+      <div class="workflow-icon">
+       👤
+      </div>
+      <h3>
+       Brainware
+      </h3>
+      <p>
+       Pengguna memberi perintah melalui keyboard, mouse, atau layar sentuh.
+      </p>
+     </article>
+     <div class="workflow-arrow">
+      &rarr;
+     </div>
+     <article class="workflow-step reveal">
+      <span>
+       02
+      </span>
+      <div class="workflow-icon">
+       ⌨
+      </div>
+      <h3>
+       Input
+      </h3>
+      <p>
+       Perangkat input mengubah tindakan pengguna menjadi data yang dapat diterima sistem.
+      </p>
+     </article>
+     <div class="workflow-arrow">
+      &rarr;
+     </div>
+     <article class="workflow-step reveal">
+      <span>
+       03
+      </span>
+      <div class="workflow-icon">
+       ⚙
+      </div>
+      <h3>
+       Process
+      </h3>
+      <p>
+       Software memberi instruksi, sedangkan CPU menjalankan operasi dan RAM menyimpan data sementara.
+      </p>
+     </article>
+     <div class="workflow-arrow">
+      &rarr;
+     </div>
+     <article class="workflow-step reveal">
+      <span>
+       04
+      </span>
+      <div class="workflow-icon">
+       ▣
+      </div>
+      <h3>
+       Output
+      </h3>
+      <p>
+       Hasil ditampilkan di monitor, diperdengarkan melalui speaker, atau dicetak oleh printer.
+      </p>
+     </article>
+    </div>
+    <div class="fact-box wide reveal">
+     <strong>
+      Ingat!
+     </strong>
+     <p>
+      Alur ini adalah model sederhana. Dalam praktiknya, komputer juga dapat membaca data dari penyimpanan, berkomunikasi melalui jaringan, dan melakukan banyak proses secara bersamaan.
+     </p>
+    </div>
+   </section>
+   <section class="section content-section glossary-section" id="glossary">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      06 / QUICK REFERENCE
+     </span>
+     <h2>
+      Mini
+      <span>
+       Glossary
+      </span>
+     </h2>
+     <p>
+      Istilah penting yang sering ditemui saat belajar TKJ.
+     </p>
+    </div>
+    <div class="glossary-grid reveal">
+     <div>
+      <strong>
+       CPU
+      </strong>
+      <p>
+       Central Processing Unit, komponen utama untuk menjalankan instruksi.
+      </p>
+     </div>
+     <div>
+      <strong>
+       RAM
+      </strong>
+      <p>
+       Random Access Memory, tempat penyimpanan data sementara saat komputer bekerja.
+      </p>
+     </div>
+     <div>
+      <strong>
+       ROM
+      </strong>
+      <p>
+       Read-Only Memory, istilah memori yang menyimpan data atau instruksi nonvolatil; implementasi modern bervariasi.
+      </p>
+     </div>
+     <div>
+      <strong>
+       OS
+      </strong>
+      <p>
+       Operating System, software dasar yang mengelola sumber daya komputer.
+      </p>
+     </div>
+     <div>
+      <strong>
+       GUI
+      </strong>
+      <p>
+       Graphical User Interface, antarmuka berbasis elemen visual.
+      </p>
+     </div>
+     <div>
+      <strong>
+       CLI
+      </strong>
+      <p>
+       Command-Line Interface, antarmuka yang menerima perintah berbentuk teks.
+      </p>
+     </div>
+     <div>
+      <strong>
+       Driver
+      </strong>
+      <p>
+       Software yang membantu sistem operasi berkomunikasi dengan perangkat tertentu.
+      </p>
+     </div>
+     <div>
+      <strong>
+       BIOS / UEFI
+      </strong>
+      <p>
+       Firmware yang membantu menginisialisasi hardware dan memulai proses booting.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="section quiz-section" id="quiz">
+    <div class="section-heading reveal">
+     <span class="eyebrow">
+      07 / KNOWLEDGE CHECK
+     </span>
+     <h2>
+      Enter the
+      <span>
+       Learning Lab
+      </span>
+     </h2>
+     <p>
+      Jawab 10 pertanyaan untuk menguji pemahamanmu tentang hardware dan software.
+     </p>
+    </div>
+    <div class="quiz-container reveal">
+     <div class="quiz-top">
+      <div>
+       <span class="tag">
+        TECHVERSE EXAM
+       </span>
+       <h3>
+        Computer Fundamentals
+       </h3>
+      </div>
+      <div class="quiz-counter" id="quizCounter">
+       Soal 1 / 10
+      </div>
+     </div>
+     <div class="quiz-progress">
+      <div id="quizProgress">
+      </div>
+     </div>
+     <div id="quizArea">
+      <h4 id="questionText">
+       Pertanyaan akan muncul di sini.
+      </h4>
+      <div class="answer-list" id="answerList">
+      </div>
+      <p aria-live="polite" class="quiz-feedback" id="quizFeedback">
+      </p>
+      <div class="quiz-controls">
+       <button class="btn btn-primary" disabled="" id="nextQuestion">
+        Jawab &amp; Lanjut &rarr;
+       </button>
+      </div>
+     </div>
+     <div aria-live="polite" class="quiz-result" hidden="" id="quizResult">
+     </div>
+     <noscript>
+      Aktifkan JavaScript untuk menggunakan kuis interaktif ini.
+     </noscript>
+    </div>
+   </section>
+   <section class="closing section reveal">
+    <span class="eyebrow">
+     YOUR JOURNEY STARTS HERE
+    </span>
+    <h2>
+     Keep learning.
+     <br/>
+     <span>
+      Keep building.
+     </span>
+    </h2>
+    <p>
+     Setiap ahli teknologi pernah menjadi pemula. Terus belajar, mencoba, dan membangun sesuatu yang bermanfaat.
+    </p>
+    <a class="btn btn-primary" href="#home">
+     Kembali ke Atas &uarr;
+    </a>
+   </section>
+  </main>
+  <footer class="footer">
+   <a class="logo" href="#home">
+    <span class="logo-icon">
+     T
+    </span>
+    TECH
+    <span>
+     VERSE
+    </span>
+   </a>
+   <p>
+    Educational project &bull; Computer Science &amp; TKJ
+   </p>
+   <p class="footer-small">
+    Dibuat untuk belajar. Gambar eksternal memerlukan internet.
+   </p>
+  </footer>
+ </body>
+</html>
